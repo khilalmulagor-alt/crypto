@@ -28,8 +28,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
- 
   }
+  
 img {
     margin: 0;
     width: 800px;
@@ -64,19 +64,17 @@ img {
     display: block;
     margin: 0 auto;
 }
-.tabel-pertama (
+.tabel-pertama {
      width: 70%;
      max-width: 100%;
      margin: 20px auto;
-     boerder-collapse: collapse;
-)
+     border-collapse: collapse;
+}
 .tabel-pertama th,
 .tabel-pertama td {
     border: #030303;
     padding: 10px;
     text-align: center;
     max-width: 600px;
-    max-width: 100%;
-    border-collapse: collapse;
     margin: 20px auto;
 }
