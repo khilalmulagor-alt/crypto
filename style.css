@@ -46,3 +46,21 @@ img {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.gambar-produk {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: #030303;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.gambar-nya {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: #030303;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
