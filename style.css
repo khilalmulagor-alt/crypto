@@ -67,6 +67,7 @@ img {
 .tabel-pertama {
      width: 70%;
      max-width: 100%;
+     overflow-x: auto;
      margin: 20px auto;
      border-collapse: collapse;
 }
