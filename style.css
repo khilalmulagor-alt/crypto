@@ -20,15 +20,6 @@ body {
             background-color: #d4360f;
  }
  
-  body 2{
-    margin: 0;
-    background-image: url('bab1.png');
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
   
 img {
     margin: 0;
@@ -50,33 +41,65 @@ img {
     width: 400px;
     max-width: 100%;
     height: auto;
-    border: #030303;
+    border: 10px#363232;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 600px) {
 .gambar-nya {
-    width: 400px;
+    width: 450px;
     max-width: 100%;
     height: auto;
-    border: #030303;
+    border: 10px #3b3737;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
 }
+   }
+
 .tabel-pertama {
      width: 70%;
      max-width: 100%;
-     overflow-x: auto;
      margin: 20px auto;
      border-collapse: collapse;
 }
+/* khusus layar hp */
+@media (max-width: 600px) {
+    .tabel-pertama {
+        width: 95%;
+    }
+}
+
 .tabel-pertama th,
 .tabel-pertama td {
-    border: #030303;
+    border: 10px #313030;
     padding: 10px;
     text-align: center;
     max-width: 100%;
     margin: 20px auto;
     border: 1px solid;
+}
+
+@media (max-width: 600px) {
+.bitcoinprice {
+    width: 500px;
+    max-width: 100%;
+    height: 500px auto;
+    border: 10px #b3a7a7;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+   }
+@media (max-width: 600px) {
+#teks {
+    text-align: center;
+    text-shadow: #313030;
+    display: block;
+    margin: 20px auto;
+
+}
 }
