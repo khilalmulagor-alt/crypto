@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    overflow-x: hidden;
     background-image: url('crypto.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
@@ -20,16 +25,17 @@ body {
             background-color: #d4360f;
  }
  
-  
 img {
-    margin: 0;
-    width: 800px;
-    border: 10px;
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    background-color: #030303;
-    padding: 10px;
+      margin: 0;
+      width: 100%;
+      max-width: 100%;
+      border: 10px;
+      border-radius: 10px;
+      background-repeat: no-repeat;
+      background-color: #030303;
+      padding: 10px;
 } 
+
 .bg-bab2 {
     background-image: url('bab1.png'); /* Ganti dengan nama file gambar khusus untuk bab 2 */
     background-size: cover;
@@ -46,18 +52,6 @@ img {
     display: block;
     margin: 0 auto;
 }
-
-@media (max-width: 600px) {
-.gambar-nya {
-    width: 450px;
-    max-width: 100%;
-    height: auto;
-    border: 10px #3b3737;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto;
-}
-   }
 
 .tabel-pertama {
      width: 70%;
@@ -102,4 +96,33 @@ img {
     margin: 20px auto;
 
 }
+  }
+  
+/* kusus 600px */
+@media (max-width: 600px) {
+.gambar-nya {
+        width: 400px;
+        max-width: 100%;
+     border-radius: 20px;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+
+    }  
+}
+.gambar-nya {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 20px;
+    height: auto;
+    display: block;
+    margin:  0 auto;
+}
+.konten {
+    background-color: rgba(172, 153, 153, 0.5);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
 }
