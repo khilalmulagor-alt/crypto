@@ -126,3 +126,10 @@ img {
     color: white;
     font-weight: bold;
 }
+.bg-tiga {
+      background-image: url('bab1.png'); /* Ganti dengan nama file gambar khusus untuk bab 2 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
